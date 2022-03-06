@@ -6,9 +6,9 @@ public class Main {
         ADMIN_USER, HIGHER_USER,NORMAL_USER,NOT_USER
 }
     public static void main(String[] args) {
-        int accessLevel =2;
         // Admin: >3, Higher user>1 ,Normal: 1 ,Not user: 0
-        boolean isAdmin =true;
+//        int accessLevel =2;
+//        boolean isAdmin =true;
 
 //        if (10 != 5){
 //            System.out.println("Access Permitted!");
@@ -54,21 +54,23 @@ public class Main {
 //            i--;
 //        }while (i>0);
 
-        /*
 
-        *
-        **
-        ***
-        ****
-        *****
-
-        * */
-
-        for (int i= 1;i<=5;i++){
-            for (int j=0;j<i;j++){
-                System.out.print("*");
-            }
-            System.out.println("");
-        }
+//        //Quick Task
+//        /*
+//        Print this shape:
+//        *
+//        **
+//        ***
+//        ****
+//        *****
+//
+//        * */
+//
+//        for (int i= 1;i<=5;i++){
+//            for (int j=0;j<i;j++){
+//                System.out.print("*");
+//            }
+//            System.out.println("");
+//        }
     }
 }
